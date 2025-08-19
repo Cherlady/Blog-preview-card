@@ -1,0 +1,87 @@
+*{
+   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;   
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+/* style,title,footer{display: none;} */
+
+.maincard{
+      background-color: hsl(0, 0%, 100%);
+      width: 300px;
+      padding:15px;
+      box-shadow: 8px 8px hsl(0, 0%, 7%);
+      border: 1px solid hsl(0, 0%, 7%);
+      border-radius: 20px;
+      /* display: flex;
+    flex-direction: column;
+    max-width:50%;
+     min-height: 500px; */}
+   
+ .firstimage {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* learning text */
+.texttitle{
+  background-color: #f4d04e;
+  padding: 4px 12px;
+  font-weight: 800;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* date */
+.publishedtext{
+  font-size: 14px;
+  margin: 10px 0;
+  color: #4c4c4c;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: #f4d04e;
+}
+
+/* Description */
+.description {
+  font-size: 14px;
+  color: #4c4c4c;
+  margin-bottom: 20px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.authorpic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 800;
+}
